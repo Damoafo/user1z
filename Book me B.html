@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book me</title>
+    <link rel="icon" type="image/png" href="/Images/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+  overflow: hidden;
+  background-color: #020e30;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.logo {
+  float: left;
+  padding-left: 20px;
+}
+
+.logo img {
+  max-height: 50px;
+  max-width: 100%;
+}
+
+.icon {
+  float: right;
+  padding-right: 20px;
+}
+
+.icon img {
+  max-height: 50px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+        </style>
+  <style>
+    body {
+margin: 0;
+padding: 0;
+background-image: url("/Images/fotor_2023-5-3_21_32_30.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+min-height: 100vh;
+}
+
+</style>
+<style>
+    /* Center the form */
+    #form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #725bf4;
+  border-radius: 5px;
+  background-color: #030a5b;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 120px;
+}
+
+button[type="submit"] {
+  background-color: #130745;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0f024e;
+}
+
+  </style>
+  
+<body>
+    <div class="topnav" id="myTopnav">
+      <div class="logo">
+        <img src="./images b/My project-1.png" alt="Logo">
+      </div>
+        <a href="/index.html" class="active">Home</a>
+        <a href="/Catalogue.html">Catalogue</a>
+        
+        <a href="/About us.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div> 
+      <style>
+        form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+        }
+      </style>
+    <form action="https://formspree.io/f/xlekzaen" method="POST">
+      <img src="./Images/dnz.png" alt="My Image" width="90px" height="90px">
+      <label for="name" style="color:rgb(249, 249, 249) ;">Name:</label>
+      <input type="text" id="name" name="name" required>
+    
+      <label for="email" style="color:rgb(249, 249, 249);">Email:</label>
+      <input type="email" id="email" name="_replyto" required>
+    
+      <label for="service" style="color: rgb(249, 249, 249);">Service:</label>
+      <select id="service" name="service">
+        <option value="Web development">Web development</option>
+        <option value="Quickbooks">Quickbooks consultancy</option>
+        <option value="Photography">Photography</option>
+        <option value="Shoe">Shoe retail(Coming soon)</option>
+      </select>
+    <button type="submit">Send</button>
+    </form>
+  </div>
+
+    
+</body>
+</html>
